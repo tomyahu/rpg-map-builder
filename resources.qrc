@@ -3,4 +3,7 @@
         <file>Shaders/default.fsh</file>
         <file>Shaders/default.vsh</file>
     </qresource>
+    <qresource prefix="/static">
+        <file>static/DefaultTileset.png</file>
+    </qresource>
 </RCC>

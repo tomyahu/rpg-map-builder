@@ -11,7 +11,7 @@ Map::Map()
 {
 	tiles = QMap<int, QMap<int, int>>();
 	tile_patterns = QMap<QString, int>();
-	tileset = nullptr;
+	setTileset( ":/static/static/DefaultTileset.png" );
 
 	QMap<QString, int> patterns = QMap<QString, int>();
 	patterns["11*100*00"] = 0;
